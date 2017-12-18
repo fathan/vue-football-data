@@ -1,0 +1,206 @@
+td.date{
+	width: 20%;
+}
+
+.date-tb{
+	width: 25%!important;
+	float: left;
+	margin-right: 10px;
+
+	&:last-child{
+		margin: 0;
+	}
+}
+
+// OVERIDE NAVBAR
+.navbar{
+	border: 0px solid transparent;
+	border-radius: 0px;
+}
+
+.navbar-default {
+  background-color: transparent;
+  margin-bottom: 0px;
+  z-index: 999;
+
+  .navbar-brand {
+	  color: $white;
+
+	  img{
+	  	margin-top: 5px;
+	  	width: 160px;
+	  }
+	}
+
+	.navbar-nav>li>a {
+	  color: $white;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-family: $stack-muli;
+		font-weight: 300;
+    font-size: 14px;
+
+	  &:hover{
+	  	color: $white;
+	  }
+	}
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+	color: $white;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+  color: #fcae55;
+  background-color: transparent;
+  border-bottom: 3px solid #fcae55;
+}
+
+.dropdown-menu{
+  background: rgba(255,255,255,.88);
+  margin-top: 3px!important;
+}
+
+.dropdown-menu>li>a {
+  display: block;
+  padding: 10px 20px;
+  clear: both;
+  font-family: $stack-muli;
+	font-weight: 300;
+  line-height: 1.42857143;
+  color: #333;
+  white-space: nowrap;
+  transition: all .15s ease-in-out;
+  -o-transition: all .15s ease-in-out;
+  -moz-transition: all .15s ease-in-out;
+  -webkit-transition: all .15s ease-in-out;
+}
+
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover {
+  color: #262626;
+  text-decoration: none;
+  background-color: #f5f5f5;
+  padding-left: 30px;
+  transition: all .15s ease-in-out;
+  -o-transition: all .15s ease-in-out;
+  -moz-transition: all .15s ease-in-out;
+  -webkit-transition: all .15s ease-in-out;
+}
+
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  -webkit-border-radius: 0 6px 6px 6px;
+  -moz-border-radius: 0 6px 6px;
+  border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown-submenu.pull-left {
+  float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  -webkit-border-radius: 6px 0 6px 6px;
+  -moz-border-radius: 6px 0 6px 6px;
+  border-radius: 6px 0 6px 6px;
+}
+
+// OVERIDE BUTTON
+.btn{
+	border-radius: 3px;
+	border: 0px solid transparent;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+	font-family: $stack-muli;
+	font-weight: 300;
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: $red-1;
+  border-color: $red-2;
+}
+
+.btn-warning{
+	color: #fff;
+  background-color: $black;
+  border-color: $black;
+}
+
+// FORM
+.form-control{
+	border-radius: 0px;
+	margin-bottom: 10px;
+  background: none;
+  letter-spacing: .2429rem;
+  border-radius: 0;
+  color: #55565b;
+  font-weight: 500;
+  height: 40px;
+  width: 100%;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  font-size: 12px;
+
+  &:focus {
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: #555;
+  }
+}
+
+// BUTTON
+/* -- Main style ------------------------------------ */
+.btn {
+  font-family: $stack-muli;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.1;
+  text-transform: uppercase;
+  letter-spacing: inherit;
+}
+
+.btn-default, .btn-link {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+
+/* -- Buttons style ------------------------------------ */
+.btn {
+  outline: 0;
+  outline-offset: 0;
+  border: 0;
+  border-radius: 2px;
+
+  transition: all .15s ease-in-out;
+  -o-transition: all .15s ease-in-out;
+  -moz-transition: all .15s ease-in-out;
+  -webkit-transition: all .15s ease-in-out;
+
+  &:focus, &:active, &.active, &:active:focus, &.active:focus {
+    outline: 0;
+    outline-offset: 0;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+  }
+}

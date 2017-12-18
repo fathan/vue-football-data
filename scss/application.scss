@@ -1,0 +1,17 @@
+/*--------------------------------------------------
+ Document   : SCSS Main Global
+ Date 			: 19 DESEMBER 2017
+ Author     : Fathan Rohman, S.T - http://fathan.github.io/vue-football-data
+ --------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Muli|Open+Sans:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700');
+
+@import url('https://rawgit.com/lykmapipo/themify-icons/master/css/themify-icons.css');
+// ========================================================
+// Global Imports
+// ========================================================
+@import "base/index";
+@import "layout/index";
+@import "components/index";
+@import "responsive/index";

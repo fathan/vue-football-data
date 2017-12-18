@@ -1,0 +1,21 @@
+body{
+	font-family: $stack-open-sans;
+	font-weight: 400;
+}
+
+ol, ul{
+	padding-left: 0;
+}
+
+a{
+	text-decoration: none!important;
+}
+
+label{
+	font-family: $stack-muli;
+	font-weight: 300;
+}
+
+.body--wrapper{
+	overflow: hidden;
+}
