@@ -15,7 +15,7 @@ npm run build
 ```
 
 ## Demo here
-for demo you can open the following demo link: [Demo Vue2-Starwars](https://fathan.github.io/vue-football-data/).
+for demo you can open the following demo link: https://fathan.github.io/vue-football-data/
 ##
 ##
 ##
